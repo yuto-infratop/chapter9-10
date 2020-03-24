@@ -18,6 +18,7 @@ main{
 .step-box{
   float: left;
   width: 300px;
+  margin-right: 20px;
   padding: 10px;
   position: relative;
   border: 1px solid #eee;
@@ -58,9 +59,7 @@ main{
   margin: 15px 0 5px;
 }
 @media screen and (max-width:1024px){
-  .step-box{
-    margin-right: 10px;
-  }
+  
 }
 @media screen and (max-width:768px){
   main{
@@ -72,4 +71,7 @@ main{
     margin: 0 auto;
     margin-bottom: 20px;
   }
+  .step-box:last-child{
+  margin-bottom: 0;
+}
 }
